@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato, sans-serif;
+}
+
+.ilustracion {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.ilustracion img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5%;
+}
+
+.inicio h1 {
+  color: #f99151;
+  font-family: Roboto, sans-serif;
+  margin: 20px;
+}
+/* estilos lista de tareas */
+
+.tareas-lista-principal {
+  width: 90vw;
+  max-width: 600px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: #e8e5f8;
+  font-family: Lato, sans-serif;
+}
